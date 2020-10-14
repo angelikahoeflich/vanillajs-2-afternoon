@@ -84,7 +84,13 @@
 </body>
 
 <script>
-    const characters
+    const characters = [];
+    const list = document.getElementById('list')
+    fetch("https://www.swapi.co")
+        .then(response => response.json())
+        .then(response => {characters.push(...response.results)
+        render();
+        })
 </script>
 
 </html>
