@@ -47,7 +47,7 @@ In this step, we'll setup our application by declaring a new event listener and 
 - Open `index.html`.
 - Locate the opening and closing `script` tags.
 - In between the `script tags` declare a new event listener on our window object and provide it two arguments, the event to listen for and the handler to fire once that event has occurred.
-  - Add a single argument to the handler that will represent our `event`.
+  - Add a single argument to theer that will represent our `event`.
   - The `event` argument is implicitly passed with information about the keypress event that occurred.
   - One piece of information that will be passed along will be the `keyCode` of the key that was pressed.
   - This `keyCode` will correlate with the `data-key` attribute assigned to our polygons and audio tags.
